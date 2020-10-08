@@ -498,7 +498,8 @@ footer{
 
   #filter-list{
     display: flex !important;
-    background-color: #0000003e;
+  background-color: #00000012;
+  border-radius: 5px;
     height: 120px;
     border:0px transparent;
     overflow-x: auto;
