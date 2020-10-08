@@ -1,6 +1,6 @@
 body{
 	font-family: 'Roboto', sans-serif;
-	background-image: url(/images/10.jpg);
+	background-image: url(../images/10.jpg);
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
@@ -672,7 +672,7 @@ footer{
 
   @media screen and (max-width: 980px){
 	  body{
-		background-image: url(/images/6.jpg);
+		background-image: url(../images/6.jpg);
 		background-color: #123d51;
 	  }
 	
