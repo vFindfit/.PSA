@@ -38,7 +38,27 @@
     <title>vFindfit - Podcast</title>
 <link rel="stylesheet" href="css/podcast.css">
 	 </head>
-	 
+	 <style>
+		 
+		 .b{
+			 display: none;
+		 }
+		 @media(max-width: 600px){
+			  .a{
+            display: none;
+                    }
+               .a1{
+                display: none;
+              }
+              .b{
+                display: block;
+              }
+			  .text-center{
+				  display: flex;
+			  }
+			  }
+              		 
+	 </style>
 	<body>
 
 		<div class="loader-container">
@@ -55,12 +75,12 @@
 		 <!-- Navbar -->
 		 <nav class="navbar">
 			<div class="inner-width">
-			  <a  class="logo"></a>
 			  <button class="menu-toggler">
 				<span></span>
 				<span></span>
 				<span></span>
 			  </button>
+			 
 			  <div class="navbar-menu">
 				<a href="index.html">Home</a>
 				<a href="index.html#about">About Us</a>
@@ -68,10 +88,25 @@
 			  </div>
 			</div>
 		  </nav>
+		  <div class="row b">
+			
+			<div class="col-md-12 text-center .b">
+				<a  class="logo"><img src="images/logo-p.png" alt="" style="margin-top: -30px;width: 100px; height: 30px;"></a>
+				<ul id="filter-list">
+				
+				<a  href="podcast/devotional"><li class="filter">Devotional</li></a>
+				<a  href="podcast/khaniya"><li class="filter"> Khani Suno</li></a>
+				<a  href="podcast/comedy"><li class="filter">Comedy</li></a>
+				<a  href="podcast/crime"><li class="filter" >Crime</li></a>
+				<a  href="podcast/horror"><li class="filter" >Horror</li></a>
+				<a  href="podcast/pauranik"><li class="filter" >Pauranik Kathaye</li></a>
+				<a  href="podcast/history"><li class="filter" >History</li></a>
+				</ul>
+			</div>
+		</div>
+		  <h1 class="a"><i class="fa fa-podcast"></i> &nbsp; Podcasts</h1>
 
-		  <h1><i class="fa fa-podcast"></i> &nbsp; Podcasts</h1>
-
-		<div class="row">
+		<div class="row a1">
 			<div class="col-md-12 text-center">
 				<ul id="filter-list">
 				<a  href="podcast/devotional"><li class="filter">Devotional</li></a>
@@ -326,3 +361,4 @@
 
 	</body>
 </html>
+
