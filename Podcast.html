@@ -38,7 +38,82 @@
     <title>vFindfit - Podcast</title>
 <link rel="stylesheet" href="css/podcast.css">
 	 </head>
-	 
+	 <style>
+		 
+		 .b{
+			 display: none;
+		 }
+		 @media(max-width: 600px){
+			  .a{
+            display: none;
+                    }
+               .a1{
+                display: none;
+              }
+              .b{
+                display: block;
+			  }
+       .row .text-center #filter-list{
+             margin: 0px;
+             border: none;
+             border-radius: 0px;
+             height: 80px;
+             background-color: #fff;
+         }
+         .navbar{
+            Height:50px;
+            Justify-content: flex-end;
+            Padding: 10px 0;
+
+}
+         .text-center{
+             /* display: flex; */
+            /* box-shadow: 10px 12px 10px black; */
+            /* background-color: blanchedalmond; */
+             overflow: hidden;
+         }
+         .logo{
+             display: block;
+            height:revert;
+            Margin-left: 102px;
+            width: 250px;
+            background-color: #fff;
+            /* border-right: 2px solid black; */
+         }
+         .logo span{
+             font-size: 1.2rem;
+             font-weight: bold;
+         }
+       
+         #filter-list a{
+             display: flex;
+             align-items: center;
+             justify-content: center;
+		 }
+		 #filter-list li {
+    display: inline-block;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: gray;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: 700;
+    padding: 0 16px;
+    min-width: 127px;
+    line-height: normal;
+
+}
+#filter-list li:hover{
+    color: #fff;
+    background-color: #ff2505;
+}
+    nav .logo img{
+            max-height: 79px;
+    min-height: 57px;
+         }
+			  }
+              		 
+	 </style>
 	<body>
 
 		<div class="loader-container">
@@ -55,12 +130,13 @@
 		 <!-- Navbar -->
 		 <nav class="navbar">
 			<div class="inner-width">
-			  <a  class="logo"></a>
+				<a  class="logo b"><img src="images/logo-p.png" alt="" style="width: 80px; height: 40px;"><span>vFindFit</span></a>
 			  <button class="menu-toggler">
 				<span></span>
 				<span></span>
 				<span></span>
 			  </button>
+			 
 			  <div class="navbar-menu">
 				<a href="index.html">Home</a>
 				<a href="index.html#about">About Us</a>
@@ -68,10 +144,22 @@
 			  </div>
 			</div>
 		  </nav>
+		  <div class="row b">
+			<div class="col-md-12 text-center .b">
+				<ul id="filter-list">
+				<a  href="podcast/devotional"><li class="filter">Devotional</li></a>
+				<a  href="podcast/khaniya"><li class="filter"> Khani Suno</li></a>
+				<a  href="podcast/comedy"><li class="filter">Comedy</li></a>
+				<a  href="podcast/crime"><li class="filter" >Crime</li></a>
+				<a  href="podcast/horror"><li class="filter" >Horror</li></a>
+				<a  href="podcast/pauranik"><li class="filter" >Pauranik Kathaye</li></a>
+				<a  href="podcast/history"><li class="filter" >History</li></a>
+				</ul>
+			</div>
+		</div>
+		  <h1 class="a"><i class="fa fa-podcast"></i> &nbsp; Podcasts</h1>
 
-		  <h1><i class="fa fa-podcast"></i> &nbsp; Podcasts</h1>
-
-		<div class="row">
+		<div class="row a1">
 			<div class="col-md-12 text-center">
 				<ul id="filter-list">
 				<a  href="podcast/devotional"><li class="filter">Devotional</li></a>
