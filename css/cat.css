@@ -570,7 +570,7 @@ ul{
 footer{
 	text-decoration: none;
 	background-color: transparent;
-	color: #282627;
+	color: #ffffffe3;
 	padding: 80px 0;
 	text-align: center;
   }
@@ -592,7 +592,7 @@ footer{
   
   .sm a{
 	text-decoration: none!important;
-	color: #282627;
+	color: #ffffffe3;
 	padding-top: 40px;
 	font-size: 22px;
 	margin: 0 25px;
@@ -600,7 +600,7 @@ footer{
   }
   
   .sm a:hover{
-	color:  rgb(251, 101, 0);
+	color:  #fb6500;
   }
 
 .goTop{
