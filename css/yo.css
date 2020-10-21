@@ -29,7 +29,7 @@ font-family: CHILLER import;
 }
 @font-face{
   font-family:CHILLER import;
-  src: url(../CHILLER.ttf);
+  src: url(../CHILLER.TTF);
 }
 
 .container {
@@ -52,7 +52,7 @@ padding:0px 10px;
 
 .navbar{
     /* border-radius: 70px; */
-background-color: #ffffffde;
+background-color: #fff;
 display:inline-block;
 width:45%;
 }
@@ -92,7 +92,7 @@ font-family: CHILLER import;
 }
 @font-face{
   font-family:CHILLER import;
-  src: url(../CHILLER.ttf);
+  src: url(../CHILLER.TTF);
 }
 
 .white{
