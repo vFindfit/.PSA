@@ -302,7 +302,7 @@ background-size: cover;
 #home{
   height: 100vh;
   min-height: 500px;
-  background: url(https://source.unsplash.com/1600x900/?mountain) no-repeat center;
+  background: url(../images/back-p1.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
