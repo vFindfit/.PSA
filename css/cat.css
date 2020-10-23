@@ -424,6 +424,8 @@ cursor: pointer;
 }
 .icons a{
   text-decoration: none!important;
+  background-color: #fb7d07;
+  border-radius: 50px;
   color: #fff;
   cursor: pointer;
   margin: 10px 0;
@@ -431,6 +433,7 @@ cursor: pointer;
 }
 .icons a:hover{
   color: #ee7301;
+  background-color: #fff;
 }
 
 i.fab{
