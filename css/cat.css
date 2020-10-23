@@ -399,6 +399,9 @@ cursor: pointer;
 }
 .front-face{
   background-color: #ffffff;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .back-face{
   overflow: auto;
