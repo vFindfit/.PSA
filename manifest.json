@@ -1,0 +1,18 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "vFindfit",
+    "short_name": "vFindfit",
+    "scope": "/",
+    "display": "browser",
+    "start_url": "https://www.vfindfit.com/",
+    "background_color": "#000000",
+    "theme_color": "transparent",
+    "description": "vFindfit- A simple and effective way to find and get what you want in just few taps of your fingers. ",
+    "orientation": "any",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [],
+    "url": "https://www.vfindfit.com",
+    "screenshots": []
+}
