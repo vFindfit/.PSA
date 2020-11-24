@@ -23,3 +23,4 @@ RewriteRule ^shyari?$shyari.html
 RewriteRule ^shiv?$shiv.html
 RewriteRule ^unconclud?$unconclud.html
 RewriteRule ^Download?$Download.html
+RewriteRule ^prenews?$prenews.html
