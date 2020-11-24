@@ -22,4 +22,4 @@ RewriteRule ^ramayan?$ramayan.html
 RewriteRule ^shyari?$shyari.html
 RewriteRule ^shiv?$shiv.html
 RewriteRule ^unconclud?$unconclud.html
-RewriteRule ^download?$Download.html
+RewriteRule ^Download?$Download.html
